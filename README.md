@@ -85,6 +85,21 @@ Note that we also provide a `benchmark.py` for running `dpgen` all algorithms st
 Please consider citing the following paper if you find this tool useful in your academic paper:
 
 ```bibtex
-
+@inproceedings{10.1145/3460120.3484781,
+  author = {Wang, Yuxin and Ding, Zeyu and Xiao, Yingtai and Kifer, Daniel and Zhang, Danfeng},
+  title = {DPGen: Automated Program Synthesis for Differential Privacy},
+  year = {2021},
+  isbn = {9781450384544},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3460120.3484781},
+  doi = {10.1145/3460120.3484781},
+  booktitle = {Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security},
+  pages = {393–411},
+  numpages = {19},
+  keywords = {program synthesis, differential privacy},
+  location = {Virtual Event, Republic of Korea},
+  series = {CCS '21}
+}
 ```
 
