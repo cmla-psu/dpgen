@@ -5,13 +5,6 @@ for Differential Privacy.
 
 # Setup
 
-We provide a docker container for experiments, use `docker pull ghcr.io/cmla-psu/dpgen` to pull the image
-or `docker build . -t dpgen`
-to build the image yourself. Then, run `docker run --rm --it dpgen` and you will be inside `dpgen` root folder with
-everything installed.
-
-However, we highly recommend installing `dpgen` in a `conda` environment for best performance:
-
 ```bash
 # The minimum supported python version is 3.9.
 conda create -n dpgen anaconda python=3.9
